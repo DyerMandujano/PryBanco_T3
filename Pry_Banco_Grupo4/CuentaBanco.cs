@@ -16,6 +16,6 @@ namespace Pry_Banco_Grupo4
         private string moneda;
         private double saldo;
         private int token_dg;
-
+        private CuentaBanco sgte;
     }
 }
