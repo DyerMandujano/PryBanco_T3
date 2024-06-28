@@ -12,6 +12,13 @@ namespace Pry_Banco_Grupo4
 
         CuentaBanco _inicio;
 
+        public CuentaBanco Inicio
+        {
+            get { return _inicio;}
+        }
+
+
+        //METODO PARA ENCOLAR
         public void queue(CuentaBanco unaCuentaCliente)
         {
             if (_inicio == null)
@@ -37,14 +44,12 @@ namespace Pry_Banco_Grupo4
             }
         }
 
+        //METODO PARA DESENCOLAR
         public void dequeue()
         {
             _inicio = _inicio.Sgte;
         }
 
-        public CuentaBanco Inicio
-        {
-            get { return _inicio; }
-        }
+
     }
 }

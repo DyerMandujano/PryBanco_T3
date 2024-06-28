@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArbolCuentaBanco.cs" />
     <Compile Include="CuentaBanco.cs" />
     <Compile Include="CuentaCola.cs" />
+    <Compile Include="NodoCuentaBanco.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
