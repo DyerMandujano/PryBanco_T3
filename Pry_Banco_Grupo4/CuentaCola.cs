@@ -48,8 +48,11 @@ namespace Pry_Banco_Grupo4
         public void dequeue()
         {
             _inicio = _inicio.Sgte;
-        }
+        } 
+        public void mostrarclientesanti1_5()
+        {
 
+        }
 
     }
 }
