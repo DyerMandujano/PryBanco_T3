@@ -124,7 +124,7 @@ namespace Pry_Banco_Grupo4
                     Console.WriteLine(" ║[6]Mostrar Altura del ARBOL                 ║");
                     Console.WriteLine(" ║[7]Recorrido del ARBOL en PostOrden         ║");
                     Console.WriteLine(" ║[8]Mostrar Num de Clientes por Antiguedad   ║");
-                    Console.WriteLine(" ║[9]Mostrar Num de Clientes por Cuenta       ║");
+                    Console.WriteLine(" ║[9]Mostrar Num de Clientes por Tipo Cuenta  ║");
                     Console.WriteLine(" ║[10]Mostrar Num de Clientes por Tipo Moneda ║");
                     Console.WriteLine(" ║[11]Salir                                   ║");
                     Console.WriteLine(" ╚════════════════════════════════════════════╝");
@@ -188,10 +188,18 @@ namespace Pry_Banco_Grupo4
                             Console.ReadKey();
                             break;
                         case 8:
+                            Nodoctas.MostrarClientesAntiguedad1_5años();
+                            Nodoctas.MostrarClientesAntiguedad6_10años();
+                            Console.ReadKey();
                             break;
                         case 9:
+                            Nodoctas.MostrarClientesPorTipoDeCuenta("C");
+                            Nodoctas.MostrarClientesPorTipoDeCuenta("A");
+                            Console.ReadKey();
                             break;
                         case 10:
+                            Nodoctas.MostrarClientesPorTipoMoneda();
+                            Console.ReadKey();
                             break;
                     }
                 }
@@ -201,7 +209,7 @@ namespace Pry_Banco_Grupo4
                     Console.ReadKey();
                 }
             } while (opc != 11);
-
+            
 
         }
 
