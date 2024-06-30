@@ -289,20 +289,20 @@ namespace Pry_Banco_Grupo4
                     if (idCli == valorRaiz)
                     {
                         //Imprime lo siguiente en consola
-                        Console.WriteLine("--------------------------");
-                        Console.WriteLine("\tCUENTA CLIENTE ");
-                        Console.WriteLine("--------------------------");
+                        Console.WriteLine("╔════════════════════════════════════╗");
+                        Console.WriteLine("║  CUENTA CLIENTE                    ║");
+                        Console.WriteLine("╚════════════════════════════════════╝");
                         Console.WriteLine(" Num Cliente: " + t.Dato.NumeroCliente);
                         Console.WriteLine(" Nombre: " + t.Dato.NombreCliente);
                         Console.WriteLine(" Antiguedad: " + t.Dato.Antiguedad);
                         Console.WriteLine(" Num Cuenta: " + t.Dato.NumeroCuenta);
-                        string tp = t.Dato.TipoCuenta == "A" ? " AHORRO" : " CUENTA CORRIENTE";
+                        string tp = t.Dato.TipoCuenta == "AHORRO" ? " AHORRO" : " CUENTA CORRIENTE";
                         Console.WriteLine(" Tipo Cuenta:" + tp);
-                        string tm = t.Dato.Moneda == "S" ? " SOLES" : " DÓLARES ";
+                        string tm = t.Dato.Moneda == "SOLES" ? " SOLES" : " DÓLARES ";
                         Console.WriteLine(" Moneda: " + tm);
                         Console.WriteLine(" Saldo: " + t.Dato.Saldo);
                         Console.WriteLine(" Token: " + t.Dato.TokenDigital);
-                        Console.WriteLine("--------------------------");
+                        //Console.WriteLine("╚════════════╩═══════════════════════╝");
                         flag = true;
                         return flag;
                     }
@@ -393,16 +393,16 @@ namespace Pry_Banco_Grupo4
                 postOrden(arbol.N_Der);
                 //Mostrar la Raiz
                 //Imprime lo siguiente en consola
-                Console.WriteLine("--------------------------");
-                Console.WriteLine("\tCUENTA CLIENTE ");
-                Console.WriteLine("--------------------------");
+                Console.WriteLine("╔════════════════════════════════════╗");
+                Console.WriteLine("║ CUENTA CLIENTE                     ║");
+                Console.WriteLine("╚════════════════════════════════════╝");
                 Console.WriteLine(" Num Cliente: " + arbol.Dato.NumeroCliente);
                 Console.WriteLine(" Nombre: " + arbol.Dato.NombreCliente);
                 Console.WriteLine(" Antiguedad: " + arbol.Dato.Antiguedad);
                 Console.WriteLine(" Num Cuenta: " + arbol.Dato.NumeroCuenta);
-                string tp = arbol.Dato.TipoCuenta == "A" ? " AHORRO" : " CUENTA CORRIENTE";
+                string tp = arbol.Dato.TipoCuenta == "AHORRO" ? " AHORRO" : " CUENTA CORRIENTE";
                 Console.WriteLine(" Tipo Cuenta:" + tp);
-                string tm = arbol.Dato.Moneda == "S" ? " SOLES" : " DÓLARES ";
+                string tm = arbol.Dato.Moneda == "SOLES" ? " SOLES" : " DÓLARES ";
                 Console.WriteLine(" Moneda: " + tm);
                 Console.WriteLine(" Saldo: " + arbol.Dato.Saldo);
                 Console.WriteLine(" Token: " + arbol.Dato.TokenDigital);

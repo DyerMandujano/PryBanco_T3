@@ -15,7 +15,7 @@ namespace Pry_Banco_Grupo4
 
         static void Main(string[] args)
         {
-            Console.SetWindowSize(130, 50);
+            Console.SetWindowSize(140, 50);
             PantallaPrincipal();
 
         }
@@ -44,26 +44,26 @@ namespace Pry_Banco_Grupo4
             arbolCuentaCli.insertaNodo(c5);*/
 
 
-            CuentaBanco c1 = new CuentaBanco("ANA GUERRA", 8648, 8, "A", "S", 9640, 1876);
-            CuentaBanco c2 = new CuentaBanco("JULIO GUEVARA", 4939, 9, "C", "S", 746, 4533);
-            CuentaBanco c3 = new CuentaBanco("DORA MILLAN", 8463, 5, "C", "D", 10228, 7532);
-            CuentaBanco c4 = new CuentaBanco("CARLOS DIAZ", 5606, 4, "C", "D", 5400, 1500);
-            CuentaBanco c5 = new CuentaBanco("SARA MONTERO", 5189, 7, "A", "S", 700, 1600);
-            CuentaBanco c6 = new CuentaBanco("JULIO GUEVANA", 5730, 8, "C", "S", 4549, 9554);
-            CuentaBanco c7 = new CuentaBanco("ANGEL VICTORINO", 8542, 2, "A", "D", 8122, 1921);
-            CuentaBanco c8 = new CuentaBanco("BERTHA GIL", 5476, 9, "C", "D", 8712, 9126);
-            CuentaBanco c9 = new CuentaBanco("ESTEVES BARRETO", 6631, 8, "A", "S", 6888, 5255);
-            CuentaBanco c10 = new CuentaBanco("CARLOS MEZA", 6148, 20, "A", "S", 14522, 5045);
-            CuentaBanco c11 = new CuentaBanco("NESTOR LOO", 4958, 2, "C", "S", 8705, 9850);
-            CuentaBanco c12 = new CuentaBanco("JULIO PILCO", 8740, 3, "A", "D", 460, 4176);
-            CuentaBanco c13 = new CuentaBanco("ERNESTINA MILLONES", 6368, 8, "C", "D", 790, 8816);
-            CuentaBanco c14 = new CuentaBanco("CARLOS MEZA", 7065, 9, "C", "S", 2791, 8025);
-            CuentaBanco c15 = new CuentaBanco("CAROLINA BUENDIA", 8356, 6, "C", "S", 8136, 7598);
-            CuentaBanco c16 = new CuentaBanco("FERNANDO MORENO", 5678, 3, "A", "S", 1514, 1441);
-            CuentaBanco c17 = new CuentaBanco("ANA POMARES", 4691, 1, "A", "D", 10935, 6966);
-            CuentaBanco c18 = new CuentaBanco("ANGEL DE LA CRUZ", 5838, 4, "A", "S", 9000, 5985);
-            CuentaBanco c19 = new CuentaBanco("JOSEPH CHUQUILLANQUI", 7300, 10, "C", "S", 2399, 4948);
-            CuentaBanco c20 = new CuentaBanco("DIEGO MENDOZA", 6605, 2, "C", "S", 13370, 1673);
+            CuentaBanco c1 = new CuentaBanco("ANA GUERRA", 8648, 8, "AHORRO", "SOLES", 9640, 1876);
+            CuentaBanco c2 = new CuentaBanco("JULIO GUEVARA", 4939, 9, "CORRIENTE", "SOLES", 746, 4533);
+            CuentaBanco c3 = new CuentaBanco("DORA MILLAN", 8463, 5, "CORRIENTE", "DOLARES", 10228, 7532);
+            CuentaBanco c4 = new CuentaBanco("CARLOS DIAZ", 5606, 4, "CORRIENTE", "DOLARES", 5400, 1500);
+            CuentaBanco c5 = new CuentaBanco("SARA MONTERO", 5189, 7, "AHORRO", "SOLES", 700, 1600);
+            CuentaBanco c6 = new CuentaBanco("JULIO GUEVANA", 5730, 8, "CORRIENTE", "SOLES", 4549, 9554);
+            CuentaBanco c7 = new CuentaBanco("ANGEL VICTORINO", 8542, 2, "AHORRO", "DOLARES", 8122, 1921);
+            CuentaBanco c8 = new CuentaBanco("BERTHA GIL", 5476, 9, "CORRIENTE", "DOLARES", 8712, 9126);
+            CuentaBanco c9 = new CuentaBanco("ESTEVES BARRETO", 6631, 8, "AHORRO", "SOLES", 6888, 5255);
+            CuentaBanco c10 = new CuentaBanco("CARLOS MEZA", 6148, 20, "AHORRO", "SOLES", 14522, 5045);
+            CuentaBanco c11 = new CuentaBanco("NESTOR LOO", 4958, 2, "CORRIENTE", "SOLES", 8705, 9850);
+            CuentaBanco c12 = new CuentaBanco("JULIO PILCO", 8740, 3, "AHORRO", "DOLARES", 460, 4176);
+            CuentaBanco c13 = new CuentaBanco("ERNESTINA MILLONES", 6368, 8, "CORRIENTE", "DOLARES", 790, 8816);
+            CuentaBanco c14 = new CuentaBanco("CARLOS MEZA", 7065, 9, "CORRIENTE", "SOLES", 2791, 8025);
+            CuentaBanco c15 = new CuentaBanco("CAROLINA BUENDIA", 8356, 6, "CORRIENTE", "SOLES", 8136, 7598);
+            CuentaBanco c16 = new CuentaBanco("FERNANDO MORENO", 5678, 3, "AHORRO", "SOLES", 1514, 1441);
+            CuentaBanco c17 = new CuentaBanco("ANA POMARES", 4691, 1, "AHORRO", "DOLARES", 10935, 6966);
+            CuentaBanco c18 = new CuentaBanco("ANGEL DE LA CRUZ", 5838, 4, "AHORRO", "SOLES", 9000, 5985);
+            CuentaBanco c19 = new CuentaBanco("JOSEPH CHUQUILLANQUI", 7300, 10, "CORRIENTE", "SOLES", 2399, 4948);
+            CuentaBanco c20 = new CuentaBanco("DIEGO MENDOZA", 6605, 2, "CORRIENTE", "SOLES", 13370, 1673);
 
             Nodoctas.queue(c1);
             Nodoctas.queue(c2);
@@ -193,8 +193,8 @@ namespace Pry_Banco_Grupo4
                             Console.ReadKey();
                             break;
                         case 9:
-                            Nodoctas.MostrarClientesPorTipoDeCuenta("C");
-                            Nodoctas.MostrarClientesPorTipoDeCuenta("A");
+                            Nodoctas.MostrarClientesPorTipoDeCuenta("CORRIENTE");
+                            Nodoctas.MostrarClientesPorTipoDeCuenta("AHORRO");
                             Console.ReadKey();
                             break;
                         case 10:
@@ -216,13 +216,13 @@ namespace Pry_Banco_Grupo4
         //Metodo para validar los Ingresos de Datos en Cuenta
         public static void IngresoCuenta()
         {
-            string[] validarTipo = { "A", "C" };
-            string[] validarMoneda = { "S", "D" };
+            string[] validarTipo = { "AHORRO", "CORRIENTE" };
+            string[] validarMoneda = { "SOLES", "DOLARES" };
             Random _random = new Random();
             Console.Clear();
-            Console.WriteLine(" =============================================");
-            Console.WriteLine("   INGRESO");
-            Console.WriteLine(" =============================================");
+            Console.WriteLine(" ╔═══════════════════════════════════════════╗");
+            Console.WriteLine(" ║  INGRESO                                  ║");
+            Console.WriteLine(" ╚═══════════════════════════════════════════╝");
             Console.Write("  Nro.Cliente                :");
             int _numeroCliente = _random.Next(105, 900);
             Console.Write(_numeroCliente);
@@ -336,12 +336,12 @@ namespace Pry_Banco_Grupo4
 
         public static CuentaBanco ActualizarDatosCuenta()
         {
-            string[] validarTipo = { "A", "C" };
-            string[] validarMoneda = { "S", "D" };
+            string[] validarTipo = { "AHORRO", "CORRIENTE" };
+            string[] validarMoneda = { "SOLES", "DOLARES" };
             Console.Clear();
-            Console.WriteLine(" =============================================");
-            Console.WriteLine("   INGRESO");
-            Console.WriteLine(" =============================================");
+            Console.WriteLine(" ╔═══════════════════════════════════════════╗");
+            Console.WriteLine(" ║  INGRESO                                  ║");
+            Console.WriteLine(" ╚═══════════════════════════════════════════╝");
             Console.Write("\n");
             Console.Write(" Nombre Cliente              : ");
             string _nombreCliente = Console.ReadLine();
@@ -460,28 +460,28 @@ namespace Pry_Banco_Grupo4
 
             Console.Clear();
             Console.WriteLine("Cuentas de cliente");
-            Console.WriteLine("╔════════════╦══════════════════════════╦════════════════╦══════════════════╦════════════════╦═══════════╦═════════╦═════════╗");
-            Console.WriteLine("║  NRO       ║                          ║                ║                  ║      TIPO      ║           ║         ║         ║");
-            Console.WriteLine("║  CLIENTE   ║    NOMBRE CLIENTE        ║  ANTIGUEDAD    ║   NRO.CUENTA     ║     CUENTA     ║   MONEDA  ║  SALDO  ║  TOKEN  ║");
+            Console.WriteLine("╔════════════╦══════════════════════════╦════════════════╦══════════════════╦════════════════╦═══════════╦═══════════╦═══════════╗");
+            Console.WriteLine("║  NRO       ║                          ║                ║                  ║      TIPO      ║           ║           ║           ║");
+            Console.WriteLine("║  CLIENTE   ║    NOMBRE CLIENTE        ║  ANTIGUEDAD    ║   NRO.CUENTA     ║     CUENTA     ║   MONEDA  ║  SALDO    ║  TOKEN    ║");
             if (Nodoctas.Inicio != null)
             {
                 MostrarCuenta(Nodoctas.Inicio);
             }
-            Console.WriteLine("╚════════════╩══════════════════════════╩════════════════╩══════════════════╩════════════════╩═══════════╩═════════╩═════════╝");
+            Console.WriteLine("╚════════════╩══════════════════════════╩════════════════╩══════════════════╩════════════════╩═══════════╩═══════════╩═══════════╝");
             Console.ReadLine();
 
         }
         public static void MostrarCuenta(CuentaBanco unaCta)
         {
-            Console.WriteLine("╠════════════╬══════════════════════════╬════════════════╬══════════════════╬════════════════╬═══════════╬═════════╬═════════╣");
+            Console.WriteLine("╠════════════╬══════════════════════════╬════════════════╬══════════════════╬════════════════╬═══════════╬═══════════╬═══════════╣");
             Console.WriteLine("║" + unaCta.NumeroCliente.ToString().PadRight(12, ' ').Substring(0, 12) + "║" +
                               unaCta.NombreCliente.TrimEnd().PadRight(26).Substring(0, 26) + "║" +
                               unaCta.Antiguedad.ToString().PadRight(16, ' ').Substring(0, 16) + "║     " +
                               unaCta.NumeroCuenta.ToString().PadRight(10, ' ').Substring(0, 10) + "   ║" +
-                              (unaCta.TipoCuenta == "A" ? "     AHORRO     " : "CUENTA CORRIENTE") + "║   " +
-                              (unaCta.Moneda == "S" ? " SOLES  " : "DÓLARES ") + "║" +
-                              unaCta.Saldo + "      ║" +
-                              unaCta.TokenDigital + "     ║");
+                              (unaCta.TipoCuenta == "AHORRO" ? "     AHORRO     " : "CUENTA CORRIENTE") + "║   " +
+                              (unaCta.Moneda == "SOLES" ? " SOLES  " : "DÓLARES ") + "║" +
+                              unaCta.Saldo.ToString().PadRight(6, ' ').Substring(0, 6) + "     ║" +
+                              unaCta.TokenDigital.ToString().PadRight(7, ' ').Substring(0, 7) + "    ║");
             if (unaCta.Sgte != null)
             {
                 MostrarCuenta(unaCta.Sgte);
